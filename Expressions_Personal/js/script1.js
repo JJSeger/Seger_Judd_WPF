@@ -1,7 +1,7 @@
 /**
  * Created by JuddHome on 12/6/14.
  */
-var glassDay=8;
+var glassDay = 8;
 
 
 
@@ -14,12 +14,14 @@ var water = prompt("Hello " + name ,"How many glasses of water do you drink dail
 var moreWater = water - glassDay;
 
     if(water >= glassDay){
-        console.log("Congrats! You are drinking enough water daily!  ");
+        console.log("Congrats! You are drinking enough water daily! ");
 
+                        }
 
             else if (water < glassDay){
-                console.log("You should be drinking" " more glasses of water per day!");
+
+                console.log("You should be drinking" + moreWater, " more glasses of water per day!");
 
 
-        }
+
 }
