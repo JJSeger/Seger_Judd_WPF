@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acc8b597-0fe1-4ccd-9812-168260fe7ec8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Industry/js/script2.js" afterPath="$PROJECT_DIR$/Expressions_Industry/js/script2.js" />
-    </list>
+    <list default="true" id="acc8b597-0fe1-4ccd-9812-168260fe7ec8" name="Default" comment="" />
     <ignored path="Seger_Judd_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -208,7 +206,7 @@
       <recent name="$PROJECT_DIR$/Problem Solving" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.script1.js">
+  <component name="RunManager" selected="Node.js.script2.js">
     <configuration default="false" name="script1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script1.js" working-dir="$PROJECT_DIR$/Expressions_Personal/js">
       <RunnerSettings RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="Basic" />
@@ -217,6 +215,11 @@
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Seger_Judd_WPF/Expressions_Personal/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="script2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script2.js" working-dir="$PROJECT_DIR$/Expressions_Industry/js">
+      <RunnerSettings RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="Basic" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -256,14 +259,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Node.js.script1.js" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.script2.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.script1.js" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.script2.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.script1.js" />
       </list>
     </recent_temporary>
   </component>
