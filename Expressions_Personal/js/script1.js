@@ -3,9 +3,15 @@
  */
 var glassDay=8;
 
+
+
+
+
 var name = prompt("What is your name?");
 
 var water = prompt("Hello " + name ,"How many glasses of water do you drink daily?");
+
+var moreWater = water - glassDay;
 
     if(water >= glassDay){
         console.log("Congrats! You are drinking enough water daily!  ");
