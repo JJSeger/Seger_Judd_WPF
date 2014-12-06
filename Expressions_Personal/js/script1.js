@@ -15,14 +15,14 @@ var moreWater = water - glassDay;
 
     if(water >= glassDay){
 
-        console.log("Congrats! You are drinking enough water daily! ")
+        "Congrats! You are drinking enough water daily! "
 
                         }
 
             else(water < glassDay)
                     {
 
-                console.log("You should be drinking" + moreWater, " more glasses of water per day!")
+                "You should be drinking" + moreWater, " more glasses of water per day!"
 
 
 
