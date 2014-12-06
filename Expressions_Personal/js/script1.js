@@ -4,7 +4,7 @@
 
 
 
-var x = ;
+<!--var x = ;
 var y = ;
-var z = ;
+var z = ;-->
 

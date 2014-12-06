@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="acc8b597-0fe1-4ccd-9812-168260fe7ec8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Personal/js/script1.js" afterPath="$PROJECT_DIR$/Expressions_Personal/js/script1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Seger_Judd_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +39,9 @@
       <file leaf-file-name="script1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14442916" vertical-offset="0" max-vertical-offset="727">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.123796426" vertical-offset="0" max-vertical-offset="727">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -458,11 +455,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14442916" vertical-offset="0" max-vertical-offset="727">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.123796426" vertical-offset="0" max-vertical-offset="727">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
