@@ -9,15 +9,25 @@
 
 
 
-var name = prompt("What is your name?");
+var name = prompt("What is your name?");// simple name prompt
 
+
+// Says Hello while using the persons name
 var water = prompt("Hello " + name ,"How many glasses of water do you drink daily?");
 
+//declares variable glassDay and assigns the value of 8 minus the users input (first calculation)
 var glassDay = 8 - water;
 
+
+//declares the variable waterMonth and assigns the value as the value of glassDay multiplied by 30(Second calculation)
 var waterMonth = glassDay * 30;
 
 
+// declares the variable waterYear and assigns the value as waterMonth 
+
+// simple alert notifying the user of how many glasses of water per day are needed
 alert ("You need to drink " + glassDay + " more per day!!");
 
+
+//notifies the user how many more glasses of water are needed every thirty days
 alert ("That means you need to drink " + waterMonth + "\n more glasses every thirty days! ");
