@@ -2,7 +2,7 @@
  * Created by JuddHome on 12/6/14.
  */
 var userInput;
-userInput=int;
+userInput = int;
 
 
 //var x = ;
