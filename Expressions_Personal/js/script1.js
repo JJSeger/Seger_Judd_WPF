@@ -36,4 +36,4 @@ alert ("You need to drink " + glassDay + " more per day!!");
 alert ("That means you need to drink " + waterMonth + "\n more glasses every thirty days! ");
 
 // notifies the user how many more glasses of water are needed per year
-alert ("That also means you need to drink " + waterYear + "\n every year!");
+alert ("That also means you need to drink " + waterYear + "\n more glasses of water every year!");
