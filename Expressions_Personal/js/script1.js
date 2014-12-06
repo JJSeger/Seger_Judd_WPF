@@ -23,7 +23,10 @@ var glassDay = 8 - water;
 var waterMonth = glassDay * 30;
 
 
-// declares the variable waterYear and assigns the value as waterMonth 
+//declares the variable waterYear and assigns the value of glassDay multiplied by 356(Third calculation)
+var waterYear = glassDay * 356;
+
+
 
 // simple alert notifying the user of how many glasses of water per day are needed
 alert ("You need to drink " + glassDay + " more per day!!");
@@ -31,3 +34,6 @@ alert ("You need to drink " + glassDay + " more per day!!");
 
 //notifies the user how many more glasses of water are needed every thirty days
 alert ("That means you need to drink " + waterMonth + "\n more glasses every thirty days! ");
+
+// notifies the user how many more glasses of water are needed per year
+alert ("That also means you need to drink " + waterYear + "\n every year!");
