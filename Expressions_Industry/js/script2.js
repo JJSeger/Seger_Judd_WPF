@@ -3,6 +3,8 @@
 
 
 
+//Prompting user for their target salary
+var targetSalary = prompt("What is your target salary?");
 
-
+//
 
