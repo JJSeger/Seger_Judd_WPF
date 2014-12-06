@@ -18,7 +18,8 @@ var moreWater = water - glassDay;
 
                         }
 
-            else if (water < glassDay){
+            else(water < glassDay)
+                    {
 
                 console.log("You should be drinking" + moreWater, " more glasses of water per day!");
 
