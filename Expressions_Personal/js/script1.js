@@ -17,5 +17,5 @@ var glassDay = 8 - water;
 
 
 
-alert ("You need to drink" + glassDay ," Per day!!");
+alert ("You need to drink " + glassDay + " more per day!!");
 
