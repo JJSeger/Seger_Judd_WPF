@@ -1,5 +1,5 @@
-//This code is based on and 8 glass per day evaluation 
-
+//This code is based on and 8 glass per day evaluation
+//Judd Seger  12/06/14  Week 2 Expressions_Personal Assignment
 
 
 
