@@ -5,7 +5,7 @@
 userInput=int;
 
 
-<!--var x = userInput;
+<!--var x = ;
 var y = ;
 var z = ;-->
 
