@@ -3,7 +3,7 @@
  */
 
 
-var glassDay = 8;
+
 
 
 
@@ -13,8 +13,9 @@ var name = prompt("What is your name?");
 
 var water = prompt("Hello " + name ,"How many glasses of water do you drink daily?");
 
-var dailyWater = water - glassDay;
-var moreWater = glassDay - dailyWater;
-if (dailyWater < glassDay) alert ("You should be drinking " + moreWater, " more glasses! ") ;
+var glassDay = 8 - water;
 
-(dailyWater)
+
+
+alert ("You need to drink" + glassDay ," Per day!!");
+
