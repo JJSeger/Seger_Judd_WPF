@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acc8b597-0fe1-4ccd-9812-168260fe7ec8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Personal/js/script1.js" afterPath="$PROJECT_DIR$/Expressions_Personal/js/script1.js" />
-    </list>
+    <list default="true" id="acc8b597-0fe1-4ccd-9812-168260fe7ec8" name="Default" comment="" />
     <ignored path="Seger_Judd_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -276,7 +274,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="145" y="22" width="1263" height="824" extended-state="0" />
+    <frame x="145" y="22" width="1263" height="824" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
