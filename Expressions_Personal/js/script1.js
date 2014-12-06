@@ -1,6 +1,4 @@
-/**
- * Created by JuddHome on 12/6/14.
- */
+//This code is based on and 8 glass per day evaluation 
 
 
 
