@@ -1,7 +1,7 @@
 /**
  * Created by JuddHome on 12/6/14.
  */
-
+var glassDay=8;
 
 var name = prompt("What is your name?");
 
