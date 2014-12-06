@@ -35,3 +35,6 @@ alert ("That means you need to drink " + waterMonth + "\n more glasses every thi
 
 // notifies the user how many more glasses of water are needed per year
 alert ("That also means you need to drink " + waterYear + "\n more glasses of water every year!");
+
+
+console.log(glassDay+ " Per day \n" + waterMonth + " Per month\n " + waterYear + " Per Year ");
