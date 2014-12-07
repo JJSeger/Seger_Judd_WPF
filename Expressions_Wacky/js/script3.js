@@ -6,5 +6,5 @@
 alert("WARNING THE FOLLOWING MIGHT\n SEEM TO BE A LITTLE WEIRD!!! ")
 
 
-
-var fart = prompt()
+//created initial prompt and assigned it to the variable fart
+var fart = prompt("Have you ever wondered how\n many times you pass gas during the day?");
