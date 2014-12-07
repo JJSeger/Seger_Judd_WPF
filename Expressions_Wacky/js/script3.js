@@ -6,7 +6,7 @@
 
 
 //created initial prompt and assigned it to the variable fart
-var fart = prompt("Have you ever wondered how\n many times you pass gas during the day?");
+var fart = [prompt("Have you ever wondered how\n many times you pass gas during the day?")];
 
 
 // Created the Good us too alert
@@ -14,7 +14,7 @@ alert(+ fart + " Good Because We Have Too! ");
 
 
 //prompting the user to enter how many times per hour they pass gas
-var bigFart = prompt("Now we obviously have to ask...\n  how many times per hour do you ....\n  Float the old rotten apple?");
+var bigFart = prompt("Now we obviously have to ask...\n  how many times per HOUR do you, how can we put it....\n  Float the old rotten apple?");
 
 //creating a variable dayFart to store the amount of times per day that the user breaks wind
 var dayFart = bigFart * 24;
@@ -27,3 +27,7 @@ console.log("That means that in order for us to calculate\n how many times you b
 
 //an alert displaying the result of dayFart
 alert(+dayFart + " farts per day! Wow, maybe we should consider a clothespin on the nose!");
+
+//console.log displaying how we get the amount of times we pass gas per minute
+console.log("So in order for us to calculate\n how many times we \"break wind\" per minute\n we need to divide by 60.");
+
