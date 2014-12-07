@@ -12,3 +12,7 @@ var fart = prompt("Have you ever wondered how\n many times you pass gas during t
 
 // Created the Good us too alert
 alert(+ fart " Good Because We Have Too!");
+
+
+//prompting the user to enter howmay times per hour they pass gas
+var bigFart = prompt("Now we obviously have to ask...\n  how many times per hour do you ....\n  Float a rotten apple?");
