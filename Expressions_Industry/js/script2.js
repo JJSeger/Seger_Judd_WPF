@@ -1,5 +1,7 @@
 //freelance rates calculator for web design and development
 //Judd Seger Week 2 12/06/14 Assignment Expressions_Industry
+// created variable otherDaysOff 
+var otherDaysOff = 176;
 
 
 
@@ -19,3 +21,6 @@ console.log("Your associated costs are based \n on thirty percent of your salary
 //Displays the fact that there are 7 holidays, 2 weeks vacation, and 5 sick days included in this equation
 console.log("We are going to also calculate in \n 7 legal holidays - 56 hours \n 2 weeks vacation - 80 hours" +
 " \n and 5 sick days - 40 hours \n for a grand total of \n 176 hours ");
+
+
+alert ()
