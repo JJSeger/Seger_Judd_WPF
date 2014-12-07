@@ -33,5 +33,8 @@ console.log("We are going to also calculate in \n 7 legal holidays - 56 hours \n
 alert ("The grand total of your billable hours is" + billableHours);
 
 // Creating Alert to notify the user that their are some additional deductions from billable hours
-alert ("There are also some hours spend in the office doing other things\n these are not billable hours either.")
+alert ("There are also some hours spend in the office doing other things\n these are not billable hours either.");
 
+
+// prompt user to enter addition hours that need to be deducted from the billable hours
+var hourDed = prompt("Out of the total billable hours," + billableHours + ",\nhow many are spent doing other things?");
