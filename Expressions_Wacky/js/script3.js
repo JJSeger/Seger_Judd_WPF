@@ -61,3 +61,7 @@ var cropDust = dayFart * 356;
 
 // creating an alert to display how many times per year user farts
 alert("That also means that every year\nyou are crop dusting approx. " + cropDust + " times!");
+
+
+//creating the alert that displays think twice
+alert("Maybe you should think twice before saying yes to grandma's baked beans!!!!")
