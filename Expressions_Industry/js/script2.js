@@ -72,7 +72,7 @@ console.log("Your freelance fee should be:\n your total billable hours\n divided
 var totalFee = salary / actHours;
 
 //alert displaying what your freelance fee should be
-alert(" This is the freelance fee \nthat you should be charging $$$" + totalFee);
+alert(" This is the freelance fee \nthat you should be charging: $$$ " + totalFee);
 
 
 
