@@ -2,10 +2,10 @@
 //Judd Seger Week 2 12/06/14 Assignment Expressions_Industry
 
 
-// created variable otherDaysOff and assigned value
+//declared variable otherDaysOff and assigned value
 var otherDaysOff = 176;
 
-//created variable typicalYearlyHours and assigned value
+//declared variable typicalYearlyHours and assigned value
 var typicalYearlyHours = 2080;
 
 
@@ -29,5 +29,5 @@ console.log("Your associated costs are based \n on thirty percent of your salary
 console.log("We are going to also calculate in \n 7 legal holidays - 56 hours \n 2 weeks vacation - 80 hours" +
 " \n and 5 sick days - 40 hours \n for a grand total of \n 176 hours ");
 
-
-alert ("The grand total of your billable hours is  )
+//created an alert that notifies the user what their total billable hours are
+alert ("The grand total of your billable hours is" + billableHours);
