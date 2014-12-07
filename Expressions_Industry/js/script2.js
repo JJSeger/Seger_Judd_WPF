@@ -31,3 +31,5 @@ console.log("We are going to also calculate in \n 7 legal holidays - 56 hours \n
 
 //created an alert that notifies the user what their total billable hours are
 alert ("The grand total of your billable hours is" + billableHours);
+
+// Creating Alert to notify the user that their are some additional deductions from billable hours
