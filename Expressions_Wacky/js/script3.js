@@ -5,8 +5,8 @@
 // created initial warning alert
 
 
-//created initial prompt and assigned it to the variable fart
-var fart = [prompt("Have you ever wondered how\n many times you pass gas during the day?")];
+//created initial prompt and assigned it to the variable fart and assigned it a string value
+var fart = [prompt("Have you ever wondered how\n many times you pass gas during the day?\n Enter 1 for yes\n Enter 2 for NO")];
 
 
 // Created the Good us too alert
