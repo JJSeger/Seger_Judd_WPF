@@ -41,7 +41,7 @@ alert("There are also some hours spend in the office doing other things\n these 
 
 
 // prompt user to enter addition hours that need to be deducted from the billable hours
-var hourDed = prompt("Out of the total billable hours," + billableHours + ",\nhow many per week are spent doing other things?");
+var hourDed = prompt("Out of the total billable hours," + billableHours + ",\nhow many hours per week are spent doing other things?");
 
 //declared variable weekHour that multiplies the final hourly deduction by the weeks in a year
 var weekHour = hourDed * 56;
@@ -65,7 +65,8 @@ alert ("Now what we are going to do is factor in salary information");
 //declaring the variable salary as the value of the user input
 var salary = prompt(" How much do you pay in salary to yourself\n and your employees per year? ");
 
-
+//declaring the variable totalFee and assigning it the value of salary divided by actHours
+var totalFee = salary / actHours;
 
 
 
