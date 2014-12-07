@@ -57,4 +57,6 @@ alert("Now this is more like it!\n " + actHours + " hours, \nthese are the actua
 
 
 
+//salary information alert
+alert ("Now what we are going to do is factor in salary information");
 
