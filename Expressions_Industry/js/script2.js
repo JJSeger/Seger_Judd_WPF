@@ -19,14 +19,10 @@ var targetSalary = prompt("What is your target salary?");
 //calculates the associated costs by multiplying the target salary by 30%
 var assocCost = targetSalary * .30; //second calculation
 
-var actSalary = targetSalary + assocCost;
 
 //Displays the result of the associated costs
 console.log("Your associated costs are based \n on thirty percent of your salary \n which is equal to " + assocCost);
 
-
-//console display that adds your target salary and your associated costs
-console.log("This takes your target salary up from"+ targetSalary + " to " + actSalary );
 
 
 //created an alert that notifies the user what their total billable hours are
