@@ -24,7 +24,7 @@ var assocCost = targetSalary * .30; //second calculation
 //Displays the result of the associated costs
 console.log("Your associated costs are based \n on thirty percent of your salary \n which is equal to " + assocCost);
 
-
+console.log()
 
 
 //created an alert that notifies the user what their total billable hours are
@@ -65,8 +65,20 @@ alert ("Now what we are going to do is factor in salary information");
 //declaring the variable salary as the value of the user input
 var salary = prompt(" How much do you pay in salary to yourself\n and your employees per year? ");
 
+
+
+//this displays in the console what your freelance fee should be
+console.log("Your freelance fee should be:\n your total billable hours\n divided by your cost of salaries")
+
 //declaring the variable totalFee and assigning it the value of salary divided by actHours
 var totalFee = salary / actHours;
+
+
+
+
+
+
+
 
 
 
