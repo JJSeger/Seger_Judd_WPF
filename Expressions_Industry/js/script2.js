@@ -28,7 +28,7 @@ console.log("Your associated costs are based \n on thirty percent of your salary
 
 
 //created an alert that notifies the user what their total billable hours are
-alert("Your billable hours are" + billableHours);
+alert("Your billable hours are" + billableHours + " per year");
 
 
 //Displays the fact that there are 7 holidays, 2 weeks vacation, and 5 sick days included in this equation
@@ -53,7 +53,7 @@ var actHours = weekHour - billableHours;
 
 
 //actual hours alert that displays the total billable hours minus extra hours spent in the office
-alert("Now this is more like it!\n " + actHours + "hours, \nthese are the actual hours you can bill for. ");
+alert("Now this is more like it!\n " + actHours + " hours, \nthese are the actual hours you can bill for. ");
 
 
 
