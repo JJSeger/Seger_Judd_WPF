@@ -1,5 +1,5 @@
 // This is a Wacky Calculator that is going to calculate farts
-//Judd Seger- Week 2 Assignment - Expressions_Wacky
+//Judd Seger- 12/06/14 - Week 2 Assignment - Expressions_Wacky
 
 
 // created initial warning alert
