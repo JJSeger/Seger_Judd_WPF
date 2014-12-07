@@ -36,7 +36,7 @@ console.log("So in order for us to calculate\n how many times we \"break wind\" 
 var perMin;
 
 
-
+// Assigning the perMin variable the value of bigFart divided by 60
 perMin = bigFart / 60;
 
 
