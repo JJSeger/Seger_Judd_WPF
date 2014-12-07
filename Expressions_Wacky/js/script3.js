@@ -37,7 +37,7 @@ var perMin;
 
 
 // Assigning the perMin variable the value of bigFart divided by 60
-perMin = bigFart / 60;//Second Calculation
+perMin = bigFart / 60;     //Second Calculation
 
 
 //alert displaying how many times per minute you break wind
@@ -49,8 +49,8 @@ alert("NICE JOB!");
 
 
 
-
-
+//console.log displaying how the user can calculate hwo many times per year they fart
+console.log("We can also calculate how many times\nper year you fart by multiplying your\ninitial response by 24 and then again by 356!");
 
 
 
