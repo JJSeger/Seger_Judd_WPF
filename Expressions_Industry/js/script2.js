@@ -66,13 +66,13 @@ var salary = prompt(" How much do you pay in salary to yourself\n and your emplo
 
 
 //this displays in the console what your freelance fee should be
-console.log("Your freelance fee should be:\n your total billable hours\n divided by your cost of salaries")
+console.log("Your freelance fee should be:\n your total billable hours\n divided by your cost of salaries");
 
 //declaring the variable totalFee and assigning it the value of salary divided by actHours
 var totalFee = salary / actHours;
 
-
-
+//alert displaying what your freelance fee should be
+alert(" This is the freelance fee \nthat you should be charging $$$" + totalFee);
 
 
 
