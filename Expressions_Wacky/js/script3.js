@@ -42,3 +42,7 @@ perMin = bigFart / 60;
 
 //alert displaying how many times per minute you break wind
 alert("That means that every minute,\n your \"breakin your bum\" approx." + perMin + " times!");
+
+
+//Nice Job alert
+alert("NICE JOB!");
