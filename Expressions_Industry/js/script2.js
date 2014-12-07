@@ -39,7 +39,12 @@ alert("There are also some hours spend in the office doing other things\n these 
 // prompt user to enter addition hours that need to be deducted from the billable hours
 var hourDed = prompt("Out of the total billable hours," + billableHours + ",\nhow many are spent doing other things?");
 
+//declared a variable with the value of the result of hourDed minus billableHours
+var actHours = hourDed - billableHours;
 
 
 
-alert("Now this is more like it, \n these are the actual hours you can bill for. ")
+//actual hours alert that displays the total billable hours minus extra hours spent in the office
+alert("Now this is more like it!\n " + actHours + "hours\n, these are the actual hours you can bill for. ");
+
+
