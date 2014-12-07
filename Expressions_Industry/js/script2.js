@@ -60,3 +60,19 @@ alert("Now this is more like it!\n " + actHours + " hours, \nthese are the actua
 //salary information alert
 alert ("Now what we are going to do is factor in salary information");
 
+
+
+//declaring the variable salary as the value of the user input
+var salary = prompt(" How much do you pay in salary to yourself\n and your employees per year? ");
+
+
+
+
+
+
+
+
+
+
+
+
