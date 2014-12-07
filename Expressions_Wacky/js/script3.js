@@ -49,10 +49,15 @@ alert("NICE JOB!");
 
 
 
-//console.log displaying how the user can calculate hwo many times per year they fart
+//console.log displaying how the user can calculate how many times per year they fart
 console.log("We can also calculate how many times\nper year you fart by multiplying your\ninitial response by 24 and then again by 356!");
 
 
 
+//declaring variable cropDust to the value of dayFart multiplied by 356(day in year)
+var cropDust = dayFart * 356;
+
+
+
 // creating an alert to display how many times per year user farts
-alert("That also means that every year\nyou are crop dusting approx. ")
+alert("That also means that every year\nyou are crop dusting approx. " + cropDust + " times!");
