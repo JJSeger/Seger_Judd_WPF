@@ -31,3 +31,9 @@ alert(+dayFart + " farts per day! Wow, maybe we should consider a clothespin on 
 //console.log displaying how we get the amount of times we pass gas per minute
 console.log("So in order for us to calculate\n how many times we \"break wind\" per minute\n we need to divide by 60.");
 
+
+
+
+
+//alert displaying how many times per minute you break wind
+alert("That means that every minute,\n your \"breakin your bum\" approx." +      + " times!");
