@@ -38,7 +38,7 @@ if(gasTank == "" ) {
 
 
 //if statement that alerts if value is over 5
-if (gasTank > 5){
+if (gasTank > 5 || gasTank >= 6){
 
     alert("Sorry but you must enter a value from 1-5");
 
