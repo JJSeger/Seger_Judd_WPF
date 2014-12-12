@@ -17,15 +17,26 @@ console.log("Hello " + name +" Today we are going to figure out if \nit is time 
 
 
 //Creating If / else Statement to test the value of the variable gasTank
+// give a congrats message if tank is 3 or above
 if(gasTank >= 3) {
     console.log("Congrats! Your good to go!");}
 
     //else statement
+    //gives a sorry message for 2 or below
    else{
         console.log("Sorry but you should consider refueling.");
     }
 
-if (gasTank = ""){
+
+//if statement that alerts if value is over 5
+if (gasTank > 5){
 
     alert("Sorry but you must enter a value from 1-5");
-}
+
+          if(gasTank = "") {
+
+              alert("Sorry but you have to put something for a value!");
+          }
+
+
+            }
