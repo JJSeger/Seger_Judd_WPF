@@ -8,8 +8,9 @@
 
 
 
-
+//Simple greeting
 var name = prompt("What is your name?");
 
+//Greeting explaining what the purpose of the code is
 console.log("Hello " + name +" Today we are going to figure out if \nit is time to put gas in your vehicle");
 
