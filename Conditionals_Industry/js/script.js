@@ -10,10 +10,14 @@
 var name = prompt("What is your name?");
 
 //If statement checking the variable name
-if (name == "" ){
+if (name == "" ) {
 
     //the alert that will come up if the name variable does not get a value
     alert("Sorry but none of this counts without your name!?!");
+}
+// alert stating purpose
+alert("Hello " + name + " Today we are going to choose\n the color background for your brand new website.");
+
 
 
 
