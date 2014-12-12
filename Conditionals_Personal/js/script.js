@@ -33,10 +33,7 @@ if (gasTank > 5){
 
     alert("Sorry but you must enter a value from 1-5");
 
-          if(gasTank = "") {
-
-              alert("Sorry but you have to put something for a value!");
-          }
+         
 
 
             }
