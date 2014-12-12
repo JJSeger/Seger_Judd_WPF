@@ -24,16 +24,16 @@ var good = prompt("Does this sound good to you?");
 
 
 //if/else statement
-if(good = true){
+if(good = true) {
 
-    console.log("Wonderful " + name + " then lets get going!");
+    console.log("Wonderful " + name + " then lets get going!");}
 
 
-}
-    else{
+    if (good = false){
 
-    console.log("Sorry to hear that!\n Especially considering\n we are going to do it anyway!");
-        }
+
+        console.log("Sorry to hear that!\n Especially considering\n we are going to do it anyway!");
+    }
 
 
 
@@ -44,7 +44,7 @@ if (good == "" ) {
     alert("All fields must be completed!");
 }
 //var color that asks for a choice of colors
-var color = prompt("We currently have three choices\n of colors for your new websites background" + name + " press 1 for purple\n press 2 for olive green\n press 3 for navy blue ");
+var color = prompt("We currently have three choices\n of colors for your new websites background\n" + name + " press 1 for purple\n press 2 for olive green\n press 3 for navy blue ");
 
 if (color ==1 )
 {console.log ("You have picked purple!!!!");
