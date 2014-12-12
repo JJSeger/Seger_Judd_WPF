@@ -33,7 +33,10 @@ if (gasTank > 5){
 
     alert("Sorry but you must enter a value from 1-5");
 
-         
-
 
             }
+
+//alert to advise user
+alert("Ok now we are going to check you fuel economy");
+
+var fuel = ()
