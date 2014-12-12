@@ -21,6 +21,25 @@ alert("Hello " + name + " Today we are going to choose\n the color background fo
 //created a prompt for the question
 var good = prompt("Does this sound good to you?");
 
+
+
+//if/else statement
+if(good == true){
+
+    console.log("Wonderful" + name +" then lets get going!");
+}
+    else{
+
+    console.log("Sorry to hear that!\n Especially considering\n we are going o do it anyway!");
+        }
+
+
+
+
+
+
+
+//if statement that tests the variable good and alerts if the field is not filled out
 if (good == "" ) {
 
     //the alert that will come up if the name variable does not get a value
