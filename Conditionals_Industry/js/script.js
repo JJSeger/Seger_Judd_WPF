@@ -24,13 +24,15 @@ var good = prompt("Does this sound good to you?");
 
 
 //if/else statement
-if(good == true){
+if(good = true){
 
-    console.log("Wonderful" + name +" then lets get going!");
+    console.log("Wonderful " + name + " then lets get going!");
+
+
 }
     else{
 
-    console.log("Sorry to hear that!\n Especially considering\n we are going o do it anyway!");
+    console.log("Sorry to hear that!\n Especially considering\n we are going to do it anyway!");
         }
 
 
