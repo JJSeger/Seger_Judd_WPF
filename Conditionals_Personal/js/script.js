@@ -3,8 +3,7 @@
 //This code decides if it is time to fill up your gas tank
 
 
-//variable fullGasTank
-var fullGasTank = 5;
+
 
 
 //Simple greeting
@@ -25,3 +24,5 @@ if(gasTank >= 3) {
    else{
         console.log("Sorry but you should consider refueling.");
     }
+
+if (gasTank){}
