@@ -9,7 +9,8 @@
 //Simple greeting
 var name = prompt("What is your name?");
     if (name == "" ){
-       alert("Sorry you can not proceed without a name!?!");
+       alert("Sorry but none of this counts without your name!?!");
+
     }
 
 //Greeting explaining what the purpose of the code is
