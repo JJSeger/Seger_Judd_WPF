@@ -28,6 +28,15 @@ if(gasTank >= 3) {
     }
 
 
+//If statement checking for a blank field
+if(gasTank == "" ) {
+
+    alert("Sorry but you must fill out all fields...");
+
+}
+
+
+
 //if statement that alerts if value is over 5
 if (gasTank > 5){
 
@@ -36,7 +45,3 @@ if (gasTank > 5){
 
             }
 
-//alert to advise user
-alert("Ok now we are going to check you fuel economy");
-
-var fuel = ()
