@@ -41,6 +41,10 @@ if (good == "" ) {
     //the alert that will come up if the name variable does not get a value
     alert("All fields must be completed!");
 }
+//var color that asks for a choice of colors
+var color = prompt("We currently have three choices\n of colors for your new websites background" + name + " press 1 for purple\n press 2 for olive green\n press 3 for navy blue ");
 
-var color prompt
+
+
+
 
