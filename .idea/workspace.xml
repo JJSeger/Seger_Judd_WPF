@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acc8b597-0fe1-4ccd-9812-168260fe7ec8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Personal/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Personal/js/script.js" />
-    </list>
+    <list default="true" id="acc8b597-0fe1-4ccd-9812-168260fe7ec8" name="Default" comment="" />
     <ignored path="Seger_Judd_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
