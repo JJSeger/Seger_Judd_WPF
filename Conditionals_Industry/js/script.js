@@ -44,7 +44,25 @@ if (good == "" ) {
 //var color that asks for a choice of colors
 var color = prompt("We currently have three choices\n of colors for your new websites background" + name + " press 1 for purple\n press 2 for olive green\n press 3 for navy blue ");
 
+if (color ==1 )
+{console.log ("You have picked purple!!!!");
 
 
 
+    if (color !=1 || color < 3){
+       console.log("You have picked olive green!!!!");
 
+
+    }else {console.log("You have picked navy blue!!!!")}
+
+
+
+}
+
+//If statement that test to make sure the field is filled out
+if (color == "" ) {
+
+    //the alert that will come up if the color variable does not get a value
+    alert("All fields must be completed!");
+
+}
