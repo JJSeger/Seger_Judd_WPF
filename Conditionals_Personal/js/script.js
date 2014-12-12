@@ -15,13 +15,5 @@ var name = prompt("What is your name?");
 console.log("Hello " + name +" Today we are going to figure out if \nit is time to put gas in your vehicle");
 
 //declaring varible and assigning value of the user input
-var gasTank = prompt("Did you fill up your gas tank today?\n Please enter yes or no");
+var gasTank = prompt("You filled up your gas tank today.\n Please enter true or false");
 
-if(gasTank = true){
-
-    alert("Ok, It is probably time to put some gas in your vehicle!");
-    }
-        if (gasTank = false){
-    alert("Awesome! Your good togo for a ride!");
-
-                }
