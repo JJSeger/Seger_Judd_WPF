@@ -4,7 +4,7 @@
 
 
 
-var gasTank;
+var fullGasTank = false;
 
 
 
@@ -19,12 +19,12 @@ console.log("Hello " + name +" Today we are going to figure out if \nit is time 
 
 
 //Creating If Statement to test the value o the variable gasTank
-if(gasTank == false) {
+if(gasTank = fullGasTank) {
 
     console.log("Congrats! Your good to go!");
 
     //nested If Statement
-    if(gasTank == true )
+    if(gasTank != fullGasTank)
     {
         console.log(" Terribly sorry but you must \nput gas in your vehicle VERY SOON!");
 
