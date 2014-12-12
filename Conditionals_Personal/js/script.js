@@ -13,7 +13,7 @@ var name = prompt("What is your name?");
 console.log("Hello " + name +" Today we are going to figure out if \nit is time to put gas in your vehicle");
 
 //declaring varible and assigning value of the user input
- var gasTank = prompt("What does your gas gauge read?\n Pleas enter:\n 5 - Full\n 4 - 3/4full\n 3 - 1/2full\n 2 - 1/4full\n 1 - Running on fumes");
+ var gasTank = prompt("What does your gas gauge read?\n Please enter:\n 5 - Full\n 4 - 3/4full\n 3 - 1/2full\n 2 - 1/4full\n 1 - Running on fumes");
 
 
 //Creating If / else Statement to test the value of the variable gasTank
@@ -25,4 +25,7 @@ if(gasTank >= 3) {
         console.log("Sorry but you should consider refueling.");
     }
 
-if (gasTank){}
+if (gasTank = ""){
+
+    alert("Sorry but you must enter a value from 1-5");
+}
