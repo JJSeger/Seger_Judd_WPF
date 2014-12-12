@@ -48,11 +48,11 @@ if (color ==1 )
 {console.log ("You have picked purple!!!!");
 
 
-
+        //tests to see if color is equal to 2
     if (color !=1 || color < 3){
        console.log("You have picked olive green!!!!");
 
-
+        //else statement
     }else {console.log("You have picked navy blue!!!!")}
 
 
@@ -66,3 +66,8 @@ if (color == "" ) {
     alert("All fields must be completed!");
 
 }
+    // checks the variable color to make sure it is within its parameters
+    if (color > 3 || color < 1){
+
+        alert("You must pick a number between 1 and 3!!!");
+    }
