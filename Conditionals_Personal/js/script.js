@@ -11,5 +11,5 @@
 
 var name = prompt("What is your name?");
 
-console.log("Hello " + name +" Are you ready to calculate \nhow many gallons of gas you use per mile?");
+console.log("Hello " + name +" Today we are going to figure out if \nit is time to put gas in your vehicle");
 
