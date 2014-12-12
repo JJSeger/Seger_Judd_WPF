@@ -35,10 +35,6 @@ if(good == true){
 
 
 
-
-
-
-
 //if statement that tests the variable good and alerts if the field is not filled out
 if (good == "" ) {
 
@@ -46,5 +42,5 @@ if (good == "" ) {
     alert("All fields must be completed!");
 }
 
-
+var color prompt
 
