@@ -18,7 +18,7 @@ console.log("Hello " + name +" Today we are going to figure out if \nit is time 
 
 
 //Creating If Statement to test the value o the variable gasTank
-if(gasTank = fullGasTank) {
+if(gasTank == fullGasTank) {
     console.log("Congrats! Your good to go!");}
 
     //nested If Statement
