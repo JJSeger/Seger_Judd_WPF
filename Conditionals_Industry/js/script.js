@@ -15,8 +15,11 @@ if (name == "" ) {
     //the alert that will come up if the name variable does not get a value
     alert("Sorry but none of this counts without your name!?!");
 }
-// alert stating purpose
+// alert stating the purpose of the program
 alert("Hello " + name + " Today we are going to choose\n the color background for your brand new website.");
+
+//created a prompt for the question
+var good = prompt("Does this sound good to you?");
 
 
 
