@@ -4,7 +4,7 @@
 
 
 
-var fullGasTank = false;
+var fullGasTank = 5;
 
 
 
@@ -20,13 +20,12 @@ console.log("Hello " + name +" Today we are going to figure out if \nit is time 
 
 //Creating If Statement to test the value o the variable gasTank
 if(gasTank = fullGasTank) {
-
     console.log("Congrats! Your good to go!");
 
     //nested If Statement
-    if(gasTank != fullGasTank)
+    if(gasTank < 5)
     {
-        console.log(" Terribly sorry but you must \nput gas in your vehicle VERY SOON!");
+        prompt("What does your gas gauge read?\n Pleas enter:\n 5 - Full\n 4 - 3/4full\n 3 - 1/2full\n 2 - 1/4full\n 1 - Running on fumes");
 
 
     }
