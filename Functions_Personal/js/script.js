@@ -28,17 +28,36 @@ var studies = ("How many hours do you spend on your studies per day");
 
 // need an expression with two math operators
 
+var extraTime = freeTime - 24;
+
+var workTime = work -24;
+
+var school = studies - 24;
 
 
+//terney operator
+
+r = (condition) ? 'something' : 'somethingelse';
 
 
+//else if statement
 
+if (condition) {
+    block of code to be executed if the condition is true
+} else {
+    block of code to be executed if the condition is false
+}
 
 
 //function with three parameters
 
 
-var sleep = sleepTime(, );        // Function is called, return value will end up in x
+ var sleep = sleepTime(extraTime,workTime,school);
+
+
+
+
+         // Function is called, return value will end up in x
 
 function myFunction(a, b) {
     return a * b;                // Function returns the product of a and b
@@ -81,15 +100,3 @@ var cacArea  = function(width, height){
 
 
 
-//terney operator
-
-result = (condition) ? 'something' : 'somethingelse';
-
-
-//else if statement
-
-if (condition) {
-    block of code to be executed if the condition is true
-} else {
-    block of code to be executed if the condition is false
-}
