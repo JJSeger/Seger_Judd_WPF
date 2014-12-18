@@ -4,3 +4,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//terney operator 
+
+result = (condition) ? 'something' : 'somethingelse';
