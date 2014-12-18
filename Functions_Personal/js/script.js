@@ -25,9 +25,19 @@ function myFunction(p1, p2) {
 
 
 
-var functionName = function
+var cacArea  = function(width,height){
+
+//    code to run
+
+    var area = wisth * heig=ht;
+    return area;
+
+}
 
 
+//invocation of  anonymous function
+
+//calcArea( args, args );
 
 
 
