@@ -6,21 +6,34 @@
 
 
 
-
+//prompting the user to enter their name and storing the value in "name"
 var name = prompt("What is you name?");
 
 
+//an alert saying helo to the user and stating the intentions
 alert("Hello "+ name + " We are going to figure out together if you get enough sleep!");
 
+
+//prompting the user to enter the amount of free time they have per day and storing the value in "freeTime"
 var freeTime = prompt("How many hours of free time time \ndo you typically have per day?");
 
+
+//prompting the user to enter the amount of hours they work per day and storing the value in "work"
 var work = ("How many hours do you spend working per day?");
 
+
+//prompting the user to enter the amount of hours they spen on studies per day and storing the value in "studies"
 var studies = ("How many hours do you spend on your studies per day");
 
 
+// need an expression with two math operators
 
-// the function returns
+
+
+
+
+
+
 
 //function with three parameters
 
@@ -32,9 +45,9 @@ function myFunction(a, b) {
 }
 
 
-// need an expression with two math operators
 
-var studyTime = work - familyTime;
+
+
 
 
 
