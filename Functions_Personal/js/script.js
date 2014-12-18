@@ -13,6 +13,8 @@
 
 
 // the function returns the product of p1 and p2
+
+//function with three parameters
 function myFunction(p1, p2) {
     return p1 * p2;
 }
@@ -30,7 +32,11 @@ function myFunction(p1, p2) {
 
 
 
-var cacArea  = function(width,height){
+
+
+//anonymous function
+
+var cacArea  = function(width, height){
 
 //    code to run
 
