@@ -25,6 +25,13 @@ function myFunction(p1, p2) {
 
 
 
+var functionName = function
+
+
+
+
+
+
 //terney operator
 
 result = (condition) ? 'something' : 'somethingelse';
