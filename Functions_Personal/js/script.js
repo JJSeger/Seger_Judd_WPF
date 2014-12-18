@@ -45,3 +45,12 @@ var cacArea  = function(width,height){
 //terney operator
 
 result = (condition) ? 'something' : 'somethingelse';
+
+
+//else if statement
+
+if (condition) {
+    block of code to be executed if the condition is true
+} else {
+    block of code to be executed if the condition is false
+}
