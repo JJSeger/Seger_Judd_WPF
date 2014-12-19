@@ -13,7 +13,7 @@ var name = prompt("What is you name?");
 alert("Hello "+ name + " We are going to figure out together if you get enough sleep!");
 
 //prompting the user to enter the amount of hours they work per day and storing the value in "work"
-var work = ("How many hours do you spend working per day?");
+var work = prompt("How many hours do you spend working per day?");
 
 
 
@@ -22,18 +22,11 @@ var freeTime = prompt("How many hours of free time time \ndo you typically have 
 
 
 
-//prompting the user to enter the amount of hours they spen on studies per day and storing the value in "studies"
-var studies = ("How many hours do you spend on your studies per day");
+//prompting the user to enter the amount of hours they spend on studies per day and storing the value in "studies"
+var studies = prompt("How many hours do you spend on your studies per day");
 
-
-// adds the user input from work and studies
-var grandTotal = work + studies;
-
-//subtracts the sum of work studies and subtracts it from 24
-var sleepTimeAvailable = grandTotal - 24;
-
-//an alert giving the total of working hours plus studying hours
-alert("The grand total of your working hours plus your studying hours is " + grandTotal );
+var sleepTimeAvailable = work + studies;
+sleepTimeAvailable - 24;
 
 //writes to the console the amount of sleep time available
 console.log("That means that the sleep time you have available is equal to" + sleepTimeAvailable);
@@ -50,7 +43,7 @@ function sleepTime(a,b,c){
 
      var justSaying = (a + b + c) ;
 
-    console.log ("Hypothethically speaking if you were \nto only sleep 4 hrs. per day, \nwork for 8 hrs, and spend 2 hrs \nstudying you would only have " + justSaying - 24 + " hours \nleft to split between sleep and free time." );
+    console.log ("Hypothetically speaking if you were \nto only sleep 4 hrs. per day, \nwork for 8 hrs, and spend 2 hrs \nstudying you would only have " + justSaying - 24 + " hours \nleft to split between sleep and free time." );
 
 
 
@@ -61,7 +54,7 @@ function sleepTime(a,b,c){
 
 // need an expression with two math operators
 
-console.log("The numbers you have entered are" + freeTime + " hours for your free time \n" + work + " hours for your working hours\n and" + studies + " hours for your hours spent studying.");
+console.log("The numbers you have entered are " + freeTime + " hours for your free time \n " + work + " hours for your working hours\n and " + studies + " hours for your hours spent studying.");
 
 
 
@@ -120,23 +113,7 @@ totalHours = (studies + work + freeTime > 24 ) ? 'Total is too high!' : 'You nee
 
 
 
-//anonymous function
-workHoursPerDay = function typicalWorkHoursPerDay() {
 
-    var day = 24;
-    var workingHours = 8;
-    var leftOverTime = day - workingHours;
-
-
-    console.log("The stereotypical person \nhas " + leftOverTime + " hours to \ndevote to studies, family and sleep.");
-
-
-};
-
-
-
-//invocation of  anonymous function
-typicalWorkHoursPerDay();
 
 
 
