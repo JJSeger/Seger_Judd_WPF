@@ -17,19 +17,51 @@ alert("Hello "+ name + " We are going to figure out together if you get enough s
 //prompting the user to enter the amount of free time they have per day and storing the value in "freeTime"
 var freeTime = prompt("How many hours of free time time \ndo you typically have per day?");
 
-
 //prompting the user to enter the amount of hours they work per day and storing the value in "work"
 var work = ("How many hours do you spend working per day?");
-
 
 //prompting the user to enter the amount of hours they spen on studies per day and storing the value in "studies"
 var studies = ("How many hours do you spend on your studies per day");
 
 
+
+if(freeTime > 24){
+
+    alert("Sorry your free time exceeds the amount of hours in a day!");
+}
+
+if (work > 24){
+
+    alert("Sorry but your working hours exceed the amount of hours in a day!");
+
+}
+
+if (studies > 24){
+
+    alert("Sorry but your studying hours exceed the amount of hours in a day!");
+
+
+ else if (studies + work + freeTime > 24 )
+
+    alert("Sorry but the sum of your work hours, \nstudy hours and your free time \nexceed the amount of hours in a day!");
+
+}
+
+
+
+
+
 // need an expression with two math operators
 
 
+freeTime = function freeTimeHoursPerDay(){
 
+
+
+
+
+
+}
 
 
 
@@ -106,17 +138,10 @@ function myFunction(a, b) {
 
 
 
-//anonymous function
-
-var cacArea  = function(width, height){
-
-//    code to run
-
-    var area = wisth * heig=ht;
-    return area;
-
-}
+//variable declaration
 var workHoursPerDay;
+
+//anonymous function
 workHoursPerDay = function typicalWorkHoursPerDay() {
 
     var day = 24;
@@ -138,7 +163,7 @@ typicalWorkHoursPerDay();
 
 
 
-//calcArea( args, args );
+
 
 
 
