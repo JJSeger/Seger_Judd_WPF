@@ -28,16 +28,43 @@ var studies = ("How many hours do you spend on your studies per day");
 
 // need an expression with two math operators
 
-var extraTime = freeTime - 24;
 
-var workTime = work -24;
 
-var school = studies - 24;
+
+
+
+
+
+//This is a one-line shorthand for an if-then statement. It is called a ternary operator or a conditional operator.
+
+  //  Here is an example of code that could be shortened with the conditional operator:
+
+    //if(user is Over 21) {
+      //  serveGrapeJuice();
+ //   }
+   // else {
+     //   serveWine();
+    //    }
+
+//This can be shortened with the ?: like so:
+
+
+
+//In Javascript conditional operator can evaluate to an expression, not just a statement:
+
+ //   var userType = userIsYoungerThan18 ? "Minor" : "Adult";
+// serveDrink(userIsYoungerThan21 ? "Grape Juice" : "Wine");
+
+
 
 
 //terney operator
 
-r = (condition) ? 'something' : 'somethingelse';
+//   r = (condition) ? 'something' : 'somethingelse';
+
+
+
+
 
 
 //else if statement
@@ -52,7 +79,7 @@ if (condition) {
 //function with three parameters
 
 
- var sleep = sleepTime(extraTime,workTime,school);
+
 
 
 
@@ -89,9 +116,25 @@ var cacArea  = function(width, height){
     return area;
 
 }
+var workHoursPerDay;
+workHoursPerDay = function typicalWorkHoursPerDay() {
+
+    var day = 24;
+    var workingHours = 8;
+    var leftOverTime = day - workingHours;
+
+
+    console.log("The stereotypical person \nhas " + leftOverTime + " hours to \ndevote to studies, family and sleep.");
+
+
+};
+
 
 
 //invocation of  anonymous function
+typicalWorkHoursPerDay();
+
+
 
 
 
