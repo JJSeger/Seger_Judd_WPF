@@ -24,44 +24,36 @@ var work = ("How many hours do you spend working per day?");
 var studies = ("How many hours do you spend on your studies per day");
 
 
+//if else if statement
 
 if(freeTime > 24){
-
     alert("Sorry your free time exceeds the amount of hours in a day!");
-}
 
-if (work > 24){
-
+}if(work > 24) {
     alert("Sorry but your working hours exceed the amount of hours in a day!");
 
-}
-
-if (studies > 24){
-
+}if (studies > 24) {
     alert("Sorry but your studying hours exceed the amount of hours in a day!");
 
-
- else if (studies + work + freeTime > 24 )
+}if(studies + work + freeTime > 24 ){
 
     alert("Sorry but the sum of your work hours, \nstudy hours and your free time \nexceed the amount of hours in a day!");
 
+}else{
+    console.log("Ok now we are going to start playing with numbers...");
 }
-
 
 
 
 
 // need an expression with two math operators
 
-
-freeTime = function freeTimeHoursPerDay(){
-
+console.log("The numbers you have entered are" + freeTime " hours for your free time \n" + work + " hours for your working hours\n and" + studies + " hours for your hours spent studying.");
 
 
+)
 
 
-
-}
 
 
 
