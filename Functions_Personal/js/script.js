@@ -38,11 +38,17 @@ alert("The grand total of your working hours plus your studying hours is " + gra
 //writes to the console the amount of sleep time available
 console.log("That means that the sleep time you have available is equal to" + sleepTimeAvailable);
 
-//SleepTime function w/ three parameters and args.
-function sleepTime(4,8,2){
 
 
-    var justSaying = a + b + c
+//calling the sleepTime function
+sleepTime();
+
+
+
+//SleepTime function w/ three parameters
+function sleepTime(){
+
+      justSaying;
 
     console.log ("Hypothethically speaking if you were \nto only sleep 4 hrs. per day, \nwork for 8 hrs, and spend 2 hrs \nstudying you would only have " + justSaying - 24 + " hours \nleft to split between sleep and free time." );
 
@@ -50,9 +56,7 @@ function sleepTime(4,8,2){
 
 }
 
-//calling the sleepTime function
 
-sleepTime();
 
 
 // need an expression with two math operators
