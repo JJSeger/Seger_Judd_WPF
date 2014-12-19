@@ -41,14 +41,14 @@ console.log("That means that the sleep time you have available is equal to" + sl
 
 
 //calling the sleepTime function
-sleepTime();
+sleepTime(2,4,8);
 
 
 
 //SleepTime function w/ three parameters
-function sleepTime(){
+function sleepTime(a,b,c){
 
-      justSaying;
+     var justSaying = (a + b + c) ;
 
     console.log ("Hypothethically speaking if you were \nto only sleep 4 hrs. per day, \nwork for 8 hrs, and spend 2 hrs \nstudying you would only have " + justSaying - 24 + " hours \nleft to split between sleep and free time." );
 
@@ -61,7 +61,7 @@ function sleepTime(){
 
 // need an expression with two math operators
 
-console.log("The numbers you have entered are" + freeTime " hours for your free time \n" + work + " hours for your working hours\n and" + studies + " hours for your hours spent studying.");
+console.log("The numbers you have entered are" + freeTime + " hours for your free time \n" + work + " hours for your working hours\n and" + studies + " hours for your hours spent studying.");
 
 
 
