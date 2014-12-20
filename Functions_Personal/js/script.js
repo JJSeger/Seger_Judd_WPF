@@ -25,30 +25,21 @@ var freeTime = prompt("How many hours of free time time \ndo you typically have 
 //prompting the user to enter the amount of hours they spend on studies per day and storing the value in "studies"
 var studies = prompt("How many hours do you spend on your studies per day");
 
-var sleepTimeAvailable = work + studies;
-sleepTimeAvailable - 24;
 
-//writes to the console the amount of sleep time available
-console.log("That means that the sleep time you have available is equal to" + sleepTimeAvailable);
+//mySleepFunction
 
+var x = mySleepFunction(4, 6, 8);        // Function is called, return value will end up in x
 
-
-//calling the sleepTime function
-sleepTime(2,4,8);
+function mySleepFunction(a, b, c) {
+    return (a + b + c) - 24;                // Function returns the product of a,b and c
 
 
-
-//SleepTime function w/ three parameters
-function sleepTime(a,b,c){
-
-     var justSaying = (a + b + c) ;
-
-    console.log ("Hypothetically speaking if you were \nto only sleep 4 hrs. per day, \nwork for 8 hrs, and spend 2 hrs \nstudying you would only have " + justSaying - 24 + " hours \nleft to split between sleep and free time." );
-
+alert("Hypothetically speaking \n if you were to have two hours of studying \n fours hours of sleep \n and the typical eight hours at work \n " +
+"that would leave you with " + x +" to split up \nbetween your studies and everything else life throws at you " );
 
 
 }
-
+mySleepFunction();
 
 
 
@@ -58,33 +49,32 @@ console.log("The numbers you have entered are " + freeTime + " hours for your fr
 
 
 
-
 //function checking the hours in a day compared to the hours worked
 
-function workTime() {
+var r = myWorkFunction(work - 24);        // Function is called, return value will end up in r
 
-    var workTime = work - 24;
-
-   return  workTime;
+function mySleepFunction() {
+    return r;                // Function returns the difference of work - 24
 
 }
 
-
-//calling function
-workTime();
+//invoking myWorkFunction function
+myworkFunction();
 
 
 //function that adds the value of the variables work + freeTime and subtracts it from the hours in a day
-function studyTime() {
 
-    var studyTime = work + freeTime - 24;
+    var s = studyTimeFunction(work + freeTime - 24);
 
-    return  studyTime;
+    function studyTimeFunction() {
+
+    return s;
 
 
 }
 
-//calling the studyTime function
+
+//invoking  the studyTimeFunction function
 studyTime();
 
 
@@ -107,7 +97,7 @@ extraTime();
 //ternary operator
 
 
-var totalHours;
+var totalHours(r, ,  );
 totalHours = (studies + work + freeTime > 24 ) ? 'Total is too high!' : 'You need to adjust your hourly figures.';
 
 
