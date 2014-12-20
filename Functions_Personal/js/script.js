@@ -15,6 +15,8 @@ alert("Hello "+ name + " We are going to figure out together if you get enough s
 //prompting the user to enter the amount of hours they work per day and storing the value in "work"
 var work = prompt("How many hours do you spend working per day?");
 
+//prompting user for the hours of sleep they get
+var sleep = prompt("How many hours of sleep do you typically get per night?");
 
 
 //prompting the user to enter the amount of free time they have per day and storing the value in "freeTime"
@@ -35,7 +37,7 @@ function mySleepFunction(a, b, c) {
 
 
 alert("Hypothetically speaking \n if you were to have two hours of studying \n fours hours of sleep \n and the typical eight hours at work \n " +
-"that would leave you with " + x +" to split up \nbetween your studies and everything else life throws at you " );
+"that would leave you with " + x +" to split up \nbetween sleep and everything else life throws at you " );
 
 
 }
@@ -53,40 +55,66 @@ console.log("The numbers you have entered are " + freeTime + " hours for your fr
 
 var r = myWorkFunction(work - 24);        // Function is called, return value will end up in r
 
-function mySleepFunction() {
+function myWorkFunction() {
     return r;                // Function returns the difference of work - 24
+
+
+    alert("You have a total of " + r + " hours left for studies, freetime and sleep.");
+
 
 }
 
-//invoking myWorkFunction function
-myworkFunction();
+
 
 
 //function that adds the value of the variables work + freeTime and subtracts it from the hours in a day
 
-    var s = studyTimeFunction(work + freeTime - 24);
+    var s = studyTimeFunction(work + freeTime - 24); // Function is called, return value will end up in s
 
     function studyTimeFunction() {
 
     return s;
 
+        alert("You have a total of " + s + " hours left for to split up between studing and sleeping.")
 
 }
 
 
 //invoking  the studyTimeFunction function
-studyTime();
-
+studyTimeFunction();
 
 
 //function that adds the value of the variables work + studies and subtracts it from the hours in a day
-    function extraTime() {
 
-        var extraTime = work + studies  - 24;
+    var t = extraTimeFunction(work + studies - 24 ); // Function is called, return value will end up in t
 
-        return extraTime;
-    }
-extraTime();
+    function extraTimeFunction() {
+
+        return t;
+
+
+            alert("You have a total of " + t + " hours left to spilt up between sleepping and free time.")
+        }
+
+
+//invoking the extraTimeFunction
+extraTimeFunction();
+
+
+
+var z = sleepTimeFunction( work + studies + freeTime);
+
+function sleepTimeFunction(){
+
+
+    return z;
+
+
+}
+
+
+
+
 
 
 
@@ -96,10 +124,7 @@ extraTime();
 
 //ternary operator
 
-
-var totalHours(r, ,  );
-totalHours = (studies + work + freeTime > 24 ) ? 'Total is too high!' : 'You need to adjust your hourly figures.';
-
+    z > 16 ? 'You need to get more sleep' : 'You get plenty of sleep ';
 
 
 
