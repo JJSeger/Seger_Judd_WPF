@@ -1,7 +1,7 @@
 
 //Judd Seger 12/18/14
-//industry functions assignment
-//measures time working based on 8 hours per shift/40 hrs per week
+//wacky functions assignment
+//measures time wasted
 
 
 
@@ -12,7 +12,7 @@ var name = prompt("What is you name?");
 
 //an alert saying helo to the user and stating the intentions
 
- alert("Hello "+ name + " We are going to figure out if you get enough work hours per week \nor if you should as your boss for more hours");
+alert("Hello "+ name + " We are going to figure out if you get enough work hours per week \nor if you should as your boss for more hours");
 
 //prompting the user to enter the amount of hours they work per day and storing the value in "work"
 var work = prompt("How many hours do you typically spend working per day?");
@@ -28,7 +28,7 @@ var workWeek = prompt("How many hours do you typically work per week?");
 //prompting the user to enter the amount of hours they spend on studies per day and storing the value in "studies"
 var studies = prompt("How many hours do you spend on your studies per day");
 
-var studyWeek = studies * 7;
+
 
 
 
@@ -52,6 +52,10 @@ totalWorkFunction();
 
 
 
+
+// need an expression with two math operators
+
+console.log("You have entered " + work + " hours for your working hours per day\n and " + studies + " hours for your hours spent studying.");
 
 
 
@@ -108,7 +112,7 @@ alert("You have a total of " + z + " hours left to spilt up between sleeping and
 
 //ternary operator
 
-var workEnough = z < 40 ? 'You should ask your boss for more hours' : 'You get at least 40 hrs per week ';
+var workEnough = z < 40 ? 'You should quit wasting time' : 'You should work at least 40 hrs per week ';
 
 
 //alert for ternary
