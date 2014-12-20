@@ -62,9 +62,9 @@ console.log("The numbers you have entered are " + freeTime + " hours for your fr
 
 //function checking the hours in a day compared to the hours worked
 
-var r = myWorkFunction(work );        // Function is called, return value will end up in r
-function myWorkFunction(work) {
-    return (work) - 24;                // Function returns the difference of work - 24
+var r = myWorkFunction(work, 24);        // Function is called, return value will end up in r
+function myWorkFunction(work, a ) {
+    return ( work )- a ;                // Function returns the difference of work - 24
 
 
 
@@ -75,11 +75,11 @@ alert("You have a total of " + r + " hours left for studies, freetime and sleep.
 
 //function that adds the value of the variables work + freeTime and subtracts it from the hours in a day
 
-    var s = studyTimeFunction(work, freeTime); // Function is called, return value will end up in s
+    var s = studyTimeFunction(work, freeTime, 24); // Function is called, return value will end up in s
 
-    function studyTimeFunction(work, freeTime) {
+    function studyTimeFunction(work, freeTime, a) {
 
-    return (work + freeTime) - 24;
+    return (work + freeTime) - a;
 
 
 
@@ -91,11 +91,11 @@ alert("You have a total of " + s + " hours left for to split up between studing 
 
 //function that adds the value of the variables work + studies and subtracts it from the hours in a day
 
-    var t = extraTimeFunction(work, studies ); // Function is called, return value will end up in t
+    var t = extraTimeFunction(work, studies, 24 ); // Function is called, return value will end up in t
 
-    function extraTimeFunction(work, studies) {
+    function extraTimeFunction(work, studies, a ) {
 
-        return  (work + studies) - 24;
+        return  (work + studies )- a;
 
 
 
@@ -103,7 +103,7 @@ alert("You have a total of " + s + " hours left for to split up between studing 
 
 alert("You have a total of " + t + " hours left to spilt up between sleeping and free time.");
 
-// that adds worktime, freetime, and study time and subtracts it from 24
+// that adds worktime, freetime, and study time
 
 var z = totalSleepFunction( work, studies , freeTime);
 
@@ -120,11 +120,11 @@ function totalSleepFunction(work,studies,freeTime){
 
 //ternary operator
 
-z > 16 ? 'You need to get more sleep' : 'You get plenty of sleep ';
+var enoughSleep = z > 16 ? 'You need to get more sleep' : 'You get plenty of sleep ';
 
 
 
-
+alert(enoughSleep);
 
 
 
